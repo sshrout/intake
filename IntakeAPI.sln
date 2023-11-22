@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humana.Dep.IntakeApi.Core", "Humana.Dep.IntakeApi.Core\Humana.Dep.IntakeApi.Core.csproj", "{132FE2F5-3852-40DC-84F7-D9366AD0228A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humana.Dep.IntakeApi.Interfaces", "Humana.Dep.IntakeApi.Interfaces\Humana.Dep.IntakeApi.Interfaces.csproj", "{5C8D1E4E-0DA7-4530-94EC-E1F105F1BC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humana.Dep.IntakeApi.Common", "Humana.Dep.IntakeApi.Common\Humana.Dep.IntakeApi.Common.csproj", "{08DAC1D0-9419-478D-8CB1-2EF2C98209DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humana.Dep.IntakeApi.Models", "Humana.Dep.IntakeApi.Models\Humana.Dep.IntakeApi.Models.csproj", "{D85E0851-33AC-4406-81DB-C7BC650B350C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humana.Dep.IntakeApi.Orchestration", "Humana.Dep.IntakeApi.Orchestration\Humana.Dep.IntakeApi.Orchestration.csproj", "{D82798BE-8890-4156-A25B-D7359D483B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humana.Dep.IntakeApi.Kafka", "Humana.Dep.IntakeApi.Kafka\Humana.Dep.IntakeApi.Kafka.csproj", "{7209C883-9645-4C51-9681-730CB15FD00A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{132FE2F5-3852-40DC-84F7-D9366AD0228A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132FE2F5-3852-40DC-84F7-D9366AD0228A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132FE2F5-3852-40DC-84F7-D9366AD0228A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132FE2F5-3852-40DC-84F7-D9366AD0228A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C8D1E4E-0DA7-4530-94EC-E1F105F1BC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8D1E4E-0DA7-4530-94EC-E1F105F1BC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8D1E4E-0DA7-4530-94EC-E1F105F1BC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8D1E4E-0DA7-4530-94EC-E1F105F1BC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08DAC1D0-9419-478D-8CB1-2EF2C98209DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08DAC1D0-9419-478D-8CB1-2EF2C98209DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08DAC1D0-9419-478D-8CB1-2EF2C98209DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08DAC1D0-9419-478D-8CB1-2EF2C98209DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85E0851-33AC-4406-81DB-C7BC650B350C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85E0851-33AC-4406-81DB-C7BC650B350C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85E0851-33AC-4406-81DB-C7BC650B350C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85E0851-33AC-4406-81DB-C7BC650B350C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82798BE-8890-4156-A25B-D7359D483B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82798BE-8890-4156-A25B-D7359D483B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82798BE-8890-4156-A25B-D7359D483B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82798BE-8890-4156-A25B-D7359D483B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7209C883-9645-4C51-9681-730CB15FD00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7209C883-9645-4C51-9681-730CB15FD00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7209C883-9645-4C51-9681-730CB15FD00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7209C883-9645-4C51-9681-730CB15FD00A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53647349-1155-488F-8D18-9B33B970E8D3}
+	EndGlobalSection
+EndGlobal

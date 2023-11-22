@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "zfEBDLmxqd6PRZxPNr19o96fm9tvL2ECdCjdyv+0pEwXVZQqREEnEYPZK0Gcn1AIPo0D/s6LSB+X78lkOl7GmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Orchestration\\Humana.Dep.IntakeApi.Orchestration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scott\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
+    "C:\\Users\\scott\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
+    "C:\\Users\\scott\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\scott\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
