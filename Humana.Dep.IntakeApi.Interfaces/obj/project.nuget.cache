@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3cK7RnyY8XELZLPC4eADDvie0RNCTn9rbxIK2IersDPUYghFHEWuhCMU11U4x8hkDaRh1Lq5oPc6eGFtrQL4pw==",
+  "dgSpecHash": "sr4THj9KPyEjRHcVKnG/86sMOPtGavjnnU/1E93fwc8HzMXz3ZUi6kEjgaiLh//F6KOSG39Bdt5JAO5Ga6JIPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Interfaces\\Humana.Dep.IntakeApi.Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Interfaces\\Humana.Dep.IntakeApi.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

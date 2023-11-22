@@ -768,11 +768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\IntakeAPI\\Humana.Dep.IntakeApi.Core.csproj",
+      "projectUniqueName": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Core\\Humana.Dep.IntakeApi.Core.csproj",
       "projectName": "Humana.Dep.IntakeApi.Core",
-      "projectPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\IntakeAPI\\Humana.Dep.IntakeApi.Core.csproj",
+      "projectPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Core\\Humana.Dep.IntakeApi.Core.csproj",
       "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\IntakeAPI\\obj\\",
+      "outputPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,4 +1,5 @@
-﻿using Humana.Dep.IntakeApi.Orchestration.Interfaces;
+﻿using Humana.Dep.IntakeApi.Kafka;
+using Humana.Dep.IntakeApi.Orchestration.Interfaces;
 using Humana.Dep.IntakeApi.Orchestration.Services;
 
 namespace Humana.Dep.IntakeApi.Core.Processes
@@ -6,6 +7,9 @@ namespace Humana.Dep.IntakeApi.Core.Processes
 	public class MedicareOrchestrator : OrchestrationProcess
 	{
 
-		public MedicareOrchestrator(IServiceProvider serviceProvider) : base(serviceProvider) { }
+		public MedicareOrchestrator(IServiceProvider serviceProvider) : base(serviceProvider)
+		{
+			RegisterHandler<MessageDeserializer>();
+		}
 	}
 }

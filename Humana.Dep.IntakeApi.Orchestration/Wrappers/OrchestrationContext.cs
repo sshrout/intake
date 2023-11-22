@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Confluent.Kafka;
 using Humana.Dep.IntakeApi.Kafka.Models;
+using Humana.Dep.IntakeApi.Orchestration.Models;
 
 namespace Humana.Dep.IntakeApi.Orchestration.Wrappers
 {
@@ -13,6 +14,7 @@ namespace Humana.Dep.IntakeApi.Orchestration.Wrappers
 		private readonly Dictionary<string, object?> contextItems = new();
 		public List<MessageProductionRequest> MessageProductionRequests { get;  }= new ();
 		public Message<byte[], byte[]> Request { get; set; }
+		public ProcessingStatusType ProcessingStatus { get; set; }
 
 		public OrchestrationContext(Message<byte[], byte[]> request)
 		{

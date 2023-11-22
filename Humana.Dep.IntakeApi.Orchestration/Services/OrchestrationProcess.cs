@@ -13,33 +13,63 @@ namespace Humana.Dep.IntakeApi.Orchestration.Services
 	public class OrchestrationProcess : IOrchestrationProcess
 	{
 		private readonly IServiceProvider serviceProvider;
-		private readonly List<IOrchestratorHandler> handlers;
+		private readonly Dictionary<ProcessingStatusType, List<IOrchestratorHandler>> handlers;
 		public OrchestrationProcess(IServiceProvider serviceProvider)
 		{
 			this.serviceProvider = serviceProvider;
 		}
 
+		private void LoadConfiguration(string processName)
+		{
+			
+		}
 
-		public void RegisterHandler<T>() where T : IOrchestratorHandler, new()
+		public void RegisterHandler<T>(ProcessingStatusType processingStatusType) where T : IOrchestratorHandler, new()
 		{
 			var handler = serviceProvider.GetRequiredService<T>() as IOrchestratorHandler;
-			handlers.Add(handler!);
+
+			if (handlers.TryGetValue(processingStatusType, out var list))
+			{
+				list.Add(handler!);
+			}
+			else
+			{
+				var newList = new List<IOrchestratorHandler>();
+				newList.Add(handler!);
+				handlers.Add(processingStatusType, newList);
+			}
+			
 		}
 
 		public void ProcessItem(OrchestrationContext context)
 		{
-			foreach (var handler in handlers)
+			var currentStatus = ProcessingStatusType.Pending;
+			var currentHandlers = handlers[currentStatus];
+
+			for (int currentIndex = 0; currentIndex < currentHandlers.Count; currentIndex++)
 			{
-				var result = handler.ProcessItem(context);
+				var currentStep = currentHandlers[currentIndex];
 
-				switch (result)
+				currentStep.ProcessItem(context);
+
+				if (context.ProcessingStatus == ProcessingStatusType.Complete)
 				{
-					case ProcessingResult.CriticalError:
-
-					case ProcessingResult.StopProcessing:
-						break;
+					return;
 				}
+				else if (currentStatus != context.ProcessingStatus)
+				{
+					currentStatus = context.ProcessingStatus;
+					currentHandlers = handlers[currentStatus];
+					currentIndex = 0;
+				}
+				else
+				{
+					// No action.
+				}
+
 			}
+
+			
 		}
 	}
 }

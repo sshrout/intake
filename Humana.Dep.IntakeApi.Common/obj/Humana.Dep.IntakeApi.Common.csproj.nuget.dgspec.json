@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Common\\Humana.Dep.IntakeApi.Common.csproj": {}
+    "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Common\\Humana.Dep.IntakeApi.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Common\\Humana.Dep.IntakeApi.Common.csproj": {
+    "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Common\\Humana.Dep.IntakeApi.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Common\\Humana.Dep.IntakeApi.Common.csproj",
+        "projectUniqueName": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Common\\Humana.Dep.IntakeApi.Common.csproj",
         "projectName": "Humana.Dep.IntakeApi.Common",
-        "projectPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Common\\Humana.Dep.IntakeApi.Common.csproj",
+        "projectPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Common\\Humana.Dep.IntakeApi.Common.csproj",
         "packagesPath": "C:\\Users\\scott\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Common\\obj\\",
+        "outputPath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\scott\\AppData\\Roaming\\NuGet\\NuGet.Config",

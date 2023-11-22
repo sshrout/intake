@@ -5,6 +5,6 @@ namespace Humana.Dep.IntakeApi.Orchestration.Interfaces
 {
 	public interface IOrchestratorHandler
 	{
-		ProcessingResult ProcessItem(OrchestrationContext context);
+		ProcessingStatusType ProcessItem(OrchestrationContext context);
 	}
 }

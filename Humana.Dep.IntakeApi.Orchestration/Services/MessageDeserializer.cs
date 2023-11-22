@@ -11,7 +11,7 @@ namespace Humana.Dep.IntakeApi.Kafka
 {
 	public class MessageDeserializer : IOrchestratorHandler
 	{
-		public ProcessingResult ProcessItem(OrchestrationContext context)
+		public ProcessingStatusType ProcessItem(OrchestrationContext context)
 		{
 			throw new NotImplementedException();
 		}

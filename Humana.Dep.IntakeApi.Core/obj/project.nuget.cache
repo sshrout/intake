@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H+y1MtoSzhRaMCDCRfMW8UbbohPYKv/901mPrZnV7lbxnEwAmHb8Hwr7SNRB+TBgySt0VdTHN7K46FmRFgmxtA==",
+  "dgSpecHash": "nsADKrbbwSM2ewwPcUJaIznp8qW/KNuDAoTecOzzzq2uOiZs6skl4xSx1nCn1WE43wyZZ9YoPuy53LUtmJBmCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\IntakeAPI\\Humana.Dep.IntakeApi.Core.csproj",
+  "projectFilePath": "C:\\Users\\scott\\source\\repos\\IntakeAPI\\Humana.Dep.IntakeApi.Core\\Humana.Dep.IntakeApi.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\scott\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
     "C:\\Users\\scott\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
